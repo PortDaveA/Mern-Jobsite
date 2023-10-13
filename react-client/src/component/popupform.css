@@ -1,0 +1,173 @@
+.name, .surname, .coverletter, .experience, .role, .email {
+    color:#2b3452;
+    font-size:13px;
+  }
+
+.job .selectOption {
+    color:#2b3452;
+    font-size: 13px;
+
+
+
+    
+}
+.coverletter{
+    height:225px;
+    width:100%;
+   
+}
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    margin-top:3%;
+    margin-left:3%;
+   
+    
+    
+
+}
+
+    .ReactModal__Content {
+        height:90%;
+        width:auto;    
+        
+        }
+
+    
+    .popup-inner {
+    background-color: white;
+    color:#2b3452;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    padding-right:10%;
+    
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-top:3.6%;
+    margin-bottom:10%;
+    
+    }
+    
+    .popup-inner h2 {
+    margin-top: 0;
+    color:#2b3452;
+    }
+    
+    .popup-inner label {
+        color:#2b3452;
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    .popup-inner input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    }
+    
+    .popup-inner button[type="submit"],
+    .popup-inner button[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    .popup-inner button[type="submit"]:hover,
+    .popup-inner button[type="button"]:hover {
+    background-color: #45a049;
+    }
+    
+    .popup-inner button[type="submit"] {
+    margin-top: 20px;
+    }
+    
+    .popup-inner button[type="button"] {
+    margin-top: 20px;
+    background-color: #f44336;
+    }
+    
+    .popup-inner button[type="button"]:hover {
+    background-color: #da190b;
+    }
+    
+    .popup-inner button[type="submit"]:disabled {
+    background-color: #bfbfbf;
+    color: #ffffff;
+    cursor: not-allowed;
+    }
+    
+    .popup-inner button[type="button"]:disabled {
+    background-color: #bfbfbf;
+    color: #ffffff;
+    cursor: not-allowed;
+    }
+
+    .dark-blue-spinner {
+        width: 20px;
+        height: 20px;
+        margin: 0 auto;
+        border: 10px solid #1d1e22;
+        border-top: 10px solid #88888f;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+      
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .progress {
+        width: 100%;
+        height: 30px;
+        background-color: #ffffff;
+        color:#ffffff;
+        
+      }
+      
+      .charProgress {
+        height: 100%;
+        
+        
+        
+
+      
+      }
+      
+      .charleft {
+        float:none;
+        margin: 35px 0;
+        color:#2b3452;
+       
+      }
+      
+
+      .closeform{
+        left:90%;
+        top:1%;
+        position:absolute;
+      }

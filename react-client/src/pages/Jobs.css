@@ -1,0 +1,64 @@
+.modal-close-button{
+  position:absolute;
+  top:5%;
+  right:5%;
+}
+
+.buttoncontainer {
+  position: relative;
+  position:fixed;
+  margin-bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+
+
+.job-modal h2{
+  color:#2b3452;
+}
+.job-modal p{
+  color:#2b3452
+}
+
+.jobcontent{
+  background-color:#ffffff ;
+  color: #2b3452;
+  position: relative;
+  height: 80%;
+  
+}
+
+.job-notice-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .job-notice-box {
+    padding: 10px;
+    border: 3px solid #ccc;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .job-notice-box:hover{
+    transform:scale(1.2);
+  }
+  
+  .job-notice-box h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .job-notice-box p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .job-notice-box a {
+    color: #2b3452 ;
+    text-decoration: none;
+  }
+  
